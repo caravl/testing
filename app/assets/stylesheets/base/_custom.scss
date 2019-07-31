@@ -1,0 +1,321 @@
+/*
+/*
+/*  custom.css
+/*
+/*  If not using Gulp and Sass, add your custom CSS below then include it
+/*  in your page by adding a reference to assets/css/custom.css in the head of each page.
+/*
+*/
+html, body {
+  background-color: #FFF !important;
+  background: #FFF !important;
+}
+
+body>div.loader {
+  background: #FFF;
+}
+
+:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #000;
+  font-family: aw-conqueror-didot;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.4;
+}
+
+.display-1, .display-2, .display-3, .display-4 {
+  color: #000;
+  font-family: aw-conqueror-didot;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: -.125rem;
+}
+
+.text-bg {
+  background-image: url(../assets/img/yellowpurple_mask.jpg);
+  background-position: 0% 20%;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p, span, li {
+  font-family: navigo;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-light a:not(.btn),
+.text-light h1,
+.text-light h2,
+.text-light h3,
+.text-light h4,
+.text-light h5,
+.text-light h6,
+.text-light .h1,
+.text-light .h2,
+.text-light .h3,
+.text-light .h4,
+.text-light .h5,
+.text-light .h6,
+.text-light .display-1,
+.text-light .display-2,
+.text-light .display-3,
+.text-light .display-4 {
+  color: #000;
+}
+
+.text-dark a:not(.btn),
+.text-dark h1,
+.text-dark h2,
+.text-dark h3,
+.text-dark h4,
+.text-dark h5,
+.text-dark h6,
+.text-dark .h1,
+.text-dark .h2,
+.text-dark .h3,
+.text-dark .h4,
+.text-dark .h5,
+.text-dark .h6,
+.text-dark .display-1,
+.text-dark .display-2,
+.text-dark .display-3,
+.text-dark .display-4 {
+  color: #FFF;
+}
+
+a {
+  outline: none !important;
+}
+
+a:hover {
+  color: #000;
+}
+
+table {
+  font-weight: 400;
+  color: #FFF !important;
+}
+
+th {
+  font-weight: 700;
+  color: #FFF !important;
+}
+
+.navbar-brand .logo {
+  max-height: 2rem;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  color: #000 !important;
+  font-weight: bold;
+  padding-left: 1.8rem !important;
+  padding-right: 1.8rem !important;
+}
+
+.nav-link:hover {
+  color:#000 !important;
+}
+
+.navbar-nav .active a {
+  color:#000 !important;
+}
+
+footer a, footer p, footer li {
+  color: #000;
+  font-weight: normal;
+  margin-bottom: 0.75rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background-color: transparent;
+  background-clip: border-box;
+  border: 0px;
+  border-radius: 0;
+}
+
+.feedItemDate {
+  margin-bottom: .25rem;
+  font-weight: bold;
+}
+
+.feedItemTitle {
+  margin-bottom: .25rem;
+  font-weight: bold;
+  /* text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); */
+}
+
+.feedItemSnippet {
+  margin-bottom: .25rem;
+  color: #776b62;
+}
+
+.filmPostDetails .feedItemSnippet {
+  font-family:interstate;
+  font-weight:400;
+}
+
+/* #filmSamples .video-poster:hover  {
+  background-color:#1a1715;
+  -webkit-transition: opacity 300ms;
+    -o-transition: opacity 300ms;
+    transition: opacity 300ms;
+}
+
+#filmSamples .video-poster img:hover  {
+  opacity:0;
+  -webkit-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  transition: opacity 300ms;
+} */
+
+.bg-primary-3 {
+  background-color: #FFF !important;
+}
+
+.bg-primary {
+  background-color: #FFF !important;
+}
+
+.bg-primary-alt {
+  background-color: #efedef !important;
+}
+
+.btn-play {
+  color: #000;
+  background-color: #FFF;
+  border-color: #FFF;
+}
+
+.nav-gradient {
+  background-image: linear-gradient(180deg, #FFF, rgba(0, 0, 0, 0));
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.slider-phone .carousel-cell:not(.is-selected) img {
+  opacity: .3 !important;
+  transform: scale(1.0) !important;
+}
+
+.slider-phone .carousel-cell img {
+  transition: 0.2s opacity ease, 0.2s transform ease;
+  transform: scale(1) translate3d(0, 0, 0) !important;
+  border-radius: 0rem;
+}
+
+.slider-phone .carousel-cell {
+  padding: 0 2.5px;
+}
+
+.shadow-3d {
+  box-shadow: 0.5rem 0.5rem 30px 0px rgba(255, 255, 255, 0.08);
+}
+
+.lead {
+  color: #000;
+}
+
+.text-light {
+  color: #000 !important;
+}
+
+.syndicateCard {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.syndicateCard a {
+  display: flex;
+}
+
+.syndicateCard a:hover h3 {
+  text-decoration: underline;
+}
+
+.flickity-prev-next-button.next {
+    right: 0rem;
+}
+
+.flickity-prev-next-button.previous {
+    left: 0rem;
+}
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+    cursor: pointer;
+}
+
+.flickity-prev-next-button {
+    border: 0px;
+}
+
+.title-fine-print {
+  font-size:.8rem;
+  font-weight:700;
+  margin-left:.325rem;
+}
+
+#filmSamples .container {
+  max-width:100%;
+  width:100%;
+}
+
+.filmPostDetails {
+  position:absolute;
+  padding: 2.325rem 2.325rem;
+  left: 0;
+  bottom: 0;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1300px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 3rem 0;
+  }
+
+  .navbar {
+    padding: .5rem 2rem .5rem 12px;
+  }
+
+  .nav-gradient {
+    background-image: none;
+    background-color: #FFF !important;
+  }
+
+  .navbar-brand .logo {
+    max-height: 16px;
+  }
+
+  .display-3 {
+    font-size: 2.5rem;
+  }
+
+  .display-4 {
+    font-size: 2rem;
+  }
+
+  .feedItemTitle {
+        font-size: 1.325rem;
+  }
+
+  .feedItemSnippet {
+    font-size:1rem;
+  }
+
+}
