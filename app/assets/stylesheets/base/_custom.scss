@@ -319,3 +319,10 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
   }
 
 }
+
+.custom-spinner{
+  display: none;
+  top: 300px;
+  left: 40%;
+  position: absolute;
+}

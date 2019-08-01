@@ -10,10 +10,9 @@
         <div class="col-md-6" data-aos="fade">
           <h1>A new kind of office perk</h1>
           <p class="lead">Engage your team with new product experiences personalized just for them.</p>
-          <form class="d-sm-flex mb-2 mt-4">
-            <input type="email" class="form-control form-control-lg mr-sm-2 mb-2 mb-sm-0" placeholder="you@yourcompany.com">
-            <button class="btn btn-lg btn-primary" type="submit">Try Me</button>
-          </form>
+          <div id='form-container'>
+            <%= render partial: 'form', locals: { early_adoptor: @early_adoptor} %>
+          </div>  
           <span class="text-small text-muted">Already using Gathr?
             <a href="#">Sign In</a>
           </span>
@@ -282,5 +281,7 @@
         </div>
       </div>
     </section>
+
+<%= render 'common/spinner' %>
 
 <%=render partial: 'common/footer' %>

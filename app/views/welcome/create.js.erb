@@ -1,0 +1,4 @@
+<% if @refresh == true %>
+	$("#form-container").html("<%=j render 'form', early_adoptor: @early_adoptor %>")
+<% end %>
+stop_spin();
