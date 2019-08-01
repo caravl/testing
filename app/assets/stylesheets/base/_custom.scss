@@ -139,6 +139,17 @@ footer a:hover {
   text-decoration: underline;
 }
 
+#error-container .flashes {
+  background-color: #efedef;
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  // z-index: 99999999;
+  top:72px;
+}
+
 // .card {
 //   background-color: transparent;
 //   background-clip: border-box;
