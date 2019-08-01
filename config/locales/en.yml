@@ -21,3 +21,5 @@ en:
   messages:
     errors:
       duplicate_email: Sorry, you have already tried this email.
+    success:
+      adopter_create: Successfully sent.  

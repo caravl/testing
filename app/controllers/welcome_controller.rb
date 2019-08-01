@@ -12,6 +12,7 @@ class WelcomeController < ApplicationController
 	  	if early_adoptor.save
 	  		@refresh = true
 	  		@early_adoptor = EarlyAdopter.new
+	  		flash[:error] = I18n.t 'messages.success.adopter_create'
 	  	else
 	  		flash[:error] = @early_adoptor.errors.full_messages.join(',')
 	  	end
