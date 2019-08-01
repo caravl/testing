@@ -139,6 +139,17 @@ footer a:hover {
   text-decoration: underline;
 }
 
+#error-container .flashes {
+  background-color: #efedef;
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  // z-index: 99999999;
+  top:72px;
+}
+
 // .card {
 //   background-color: transparent;
 //   background-clip: border-box;
@@ -190,13 +201,31 @@ footer a:hover {
 }
 
 .bg-primary-alt {
-  background-color: #efedef !important;
+  background-color: #ff544e !important;
 }
 
 .btn-play {
   color: #000;
   background-color: #FFF;
   border-color: #FFF;
+}
+
+.btn-primary {
+  color: #FFF;
+  background-color: #ff544e;
+  border-color: #ff544e;
+}
+
+a {
+  color: #ff544e;
+}
+
+svg.bg-primary * {
+    fill: #ff544e;
+}
+
+.icon-round.bg-primary {
+    background: rgba(255, 84, 78, 0.1) !important;
 }
 
 .nav-gradient {
