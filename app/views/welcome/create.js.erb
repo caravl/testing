@@ -1,4 +1,8 @@
 <% if @refresh == true %>
 	$("#form-container").html("<%=j render 'form', early_adoptor: @early_adoptor %>")
+	remove_flash();
+<% else %>
+	$("#error-container").html("<%=j render 'application/flashes' %>")
 <% end %>
 stop_spin();
+<% flash.discard %>

@@ -17,3 +17,7 @@ en:
 
   titles:
     application: Placements
+
+  messages:
+    errors:
+      duplicate_email: Sorry, you have already tried this email.

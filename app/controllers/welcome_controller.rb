@@ -5,13 +5,17 @@ class WelcomeController < ApplicationController
 
   def create
   	return @refresh = true if adaptor_params[:email].blank?
-  	early_adoptor = EarlyAdopter.new(adaptor_params)
-  	if early_adoptor.save
-  		@refresh = true
-  		@early_adoptor = EarlyAdopter.new
+  	if EarlyAdopter.exists?(email: adaptor_params[:email])
+  		flash[:error] = I18n.t 'messages.errors.duplicate_email'
   	else
-  		flash[:error] = @early_adoptor.errors.full_messages.join(',')
-  	end
+	  	early_adoptor = EarlyAdopter.new(adaptor_params)
+	  	if early_adoptor.save
+	  		@refresh = true
+	  		@early_adoptor = EarlyAdopter.new
+	  	else
+	  		flash[:error] = @early_adoptor.errors.full_messages.join(',')
+	  	end
+	  end
   end
 
   private

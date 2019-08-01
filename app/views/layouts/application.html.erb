@@ -13,7 +13,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <%= render "flashes" -%>
+  <div id="error-container">
+    <%= render "flashes" %>
+  </div>  
   <%= yield %>
   <%= render "javascript" %>
   <%= render "css_overrides" %>
