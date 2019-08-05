@@ -14,3 +14,10 @@
 //= require jquery_ujs
 //= require activestorage
 //= require_tree .
+
+// Google Analytics
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-145087969-1');

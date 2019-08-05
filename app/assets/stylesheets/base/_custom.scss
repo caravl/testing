@@ -21,7 +21,7 @@ body>div.loader {
 
 h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: #000;
-  font-family: aw-conqueror-didot;
+  font-family: itc-avant-garde-gothic-pro, aktiv-grotesk-extended;
   font-weight: 300;
   font-style: normal;
   line-height: 1.4;
@@ -29,11 +29,15 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 .display-1, .display-2, .display-3, .display-4 {
   color: #000;
-  font-family: aw-conqueror-didot;
+  font-family: itc-avant-garde-gothic-pro, aktiv-grotesk-extended;
   font-weight: 300;
   font-style: normal;
   line-height: 1.4;
   letter-spacing: -.125rem;
+}
+
+.highlight span {
+  font-family: itc-avant-garde-gothic-pro;
 }
 
 .text-bg {
@@ -44,7 +48,7 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   -webkit-text-fill-color: transparent;
 }
 
-p, span, li {
+body, p, span, li {
   font-family: navigo;
   font-weight: 400;
   font-style: normal;
@@ -150,12 +154,10 @@ footer a:hover {
   top:72px;
 }
 
-// .card {
-//   background-color: transparent;
-//   background-clip: border-box;
-//   border: 0px;
-//   border-radius: 0;
-// }
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border:0px;
+}
 
 .feedItemDate {
   margin-bottom: .25rem;
@@ -174,7 +176,7 @@ footer a:hover {
 }
 
 .filmPostDetails .feedItemSnippet {
-  font-family:interstate;
+  font-family:navigo;
   font-weight:400;
 }
 

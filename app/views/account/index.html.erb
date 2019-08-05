@@ -1,0 +1,47 @@
+<%=render partial: 'common/header' %>
+
+<body>
+
+  <%=render partial: 'common/navCommon' %>
+
+  <section class="min-vh-100 py-5">
+      <div class="container">
+        <div class="row justify-content-center pt-6">
+          <div class="col-xl-4 col-lg-5 col-md-6">
+            <div class="text-center mb-4">
+              <h1 class="mb-1">Welcome back</h1>
+              <span>Log in to your Gathr account below</span>
+            </div>
+            <form>
+              <div class="form-group">
+                <input type="email" name="login-email" placeholder="Email Address" class="form-control">
+              </div>
+              <div class="form-group">
+                <input type="password" name="login-password" placeholder="Password" class="form-control">
+              </div>
+              <div class="form-group">
+                <button class="btn-block btn btn-primary" type="submit">Sign in</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  <section class="pb-0">
+    <div class="container">
+      <div class="row justify-content-between align-items-center my-0">
+        <div class="col-md-9" data-aos="fade">
+          <h1 class="display-4">Sign In</h1>
+          <p class="lead">
+            Due to excessive interest, our workplace placement services are currently oversubscribed.
+          </p>
+          <p class="lead">
+            If interested in learning more about our sampling and product feedback offerings, or to inquire about future brand partnerships, please reach out to us at <a href="mailto:brands@gathrnow.com">brands@gathrnow.com</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<%= render 'common/spinner' %>
+
+<%=render partial: 'common/footer' %>
