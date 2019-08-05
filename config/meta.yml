@@ -1,0 +1,21 @@
+title: Placements
+apple-itunes-app: app-id=XXXXXXXXX
+author: Placements
+description: A test app for Placements.
+keywords: recruiting
+revisit-after: 7 days
+og:
+  description: This is the description for this page.
+fb:
+  app_id: XXXXXXXXXXXX
+twitter:
+  card: summary_large_image
+  site: '@twitter_page'
+  domain: example.com
+  account_id: XXXXXXXXX
+  app:
+    country: US
+    name:
+      iphone: Placements
+    id:
+      iphone: XXXXXXXXX  
