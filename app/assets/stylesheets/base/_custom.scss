@@ -363,6 +363,10 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
     width:100%;
   }
 
+  .rotate-left, .rotate-right {
+    transform:none;
+  }
+
 }
 
 .custom-spinner{
