@@ -66,3 +66,4 @@ gem 'delayed_job_active_record'
 gem 'rack-timeout', group: :production
 gem 'jquery-rails'
 gem 'bootstrap-sass'
+gem 'meta-tags'
