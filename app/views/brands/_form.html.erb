@@ -1,0 +1,4 @@
+<%= form_for early_adoptor, url: {controller: 'welcome', action: 'create'}, html: {class: 'd-sm-flex mb-2 mt-4'}, remote: true do |form|%>
+    <%= form.email_field :email, class: 'form-control form-control-lg mr-sm-2 mb-2 mb-sm-0', placeholder: 'you@yourcompany.com' %>
+    <%= form.submit 'Sign Up For Free', class: 'btn btn-lg btn-primary', onclick: 'start_spin()' %>
+<% end %>
