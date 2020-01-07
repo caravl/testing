@@ -1,3 +1,3 @@
-class EarlyAdopter < ApplicationRecord
+# class EarlyAdopter < ApplicationRecord
 
-end
+# end
