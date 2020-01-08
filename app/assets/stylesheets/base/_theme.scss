@@ -5006,6 +5006,29 @@ button.bg-primary-3:focus {
 .d-inline-flex {
   display: inline-flex !important; }
 
+.purple-column {
+  height: 70px;
+}
+
+.large_image {
+  object-fit: contain;
+  max-height: 900px;
+  padding-top: 100px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  margin-top: 0;
+}
+
+.list {
+  object-fit: contain;
+  max-height: 400px;
+  padding: 20px;
+}
+
+.purple {
+  color: purple;
+}
+
 @media (min-width: 576px) {
   .d-sm-none {
     display: none !important; }
