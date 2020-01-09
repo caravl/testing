@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe WorkplacesController, type: :controller do
+RSpec.describe VisitorsController, type: :controller do
 
   describe "GET #index" do
     it "returns http success" do

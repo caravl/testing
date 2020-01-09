@@ -1,4 +1,4 @@
-class WorkplacesController < ApplicationController
+class VisitorsController < ApplicationController
 #   def index
 #   	@early_adoptor = EarlyAdopter.new
 #   end
